@@ -1,0 +1,8 @@
+[workspace]
+# Указываем компилятору Rust, какие папки входят в наш проект
+members = [
+    "ariel_school",
+    "ariel_school_macros",
+    "school_ide"
+]
+resolver = "2"

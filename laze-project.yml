@@ -1,0 +1,9 @@
+imports:
+  - path: "../ariel-os"
+context: default
+apps:
+  - name: school_app
+    sources:
+      - src/main.rs
+    depends:
+      - ariel_os

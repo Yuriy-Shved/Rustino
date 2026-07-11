@@ -1,0 +1,13 @@
+[package]
+name = "ariel_school_macros"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true # Указывает компилятору, что это процедурный макрос
+
+[dependencies]
+# Библиотеки для парсинга и генерации синтаксического дерева Rust
+syn = { version = "2.0", features = ["full", "parsing"] }
+quote = "1.0"
+proc-macro2 = "1.0"

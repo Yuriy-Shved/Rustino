@@ -1,0 +1,12 @@
+[package]
+name = "ariel_school"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Подключаем наш процедурный макрос из соседней папки
+ariel_school_macros = { path = "../ariel_school_macros" }
+
+# Базовые зависимости операционной системы Ariel OS и логирования
+ariel-os = { version = "0.1" } # Версия подстроится под вашу локальную установку Ariel OS
+log = "0.4"
