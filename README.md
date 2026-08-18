@@ -956,8 +956,6 @@ mod  flix_drone {
 
 Since  **Rustino**  runs on top of  **Ariel OS**  , under the hood both subsystems use chip-specific asynchronous drivers (Embassy HAL) (  **ESP32-C3**  or  **RP2040**  ). 
 
-Below are the missing sections for a complete system specification.
-
 ---
 
 # PART 9. Peripheral data buses (Serial, SPI)
