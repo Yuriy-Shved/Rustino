@@ -31,7 +31,8 @@ Unlike ESP-IDF, Ariel OS is a "library OS." The meta-build system (  laze  ) aut
 |**Entry threshold**|Low. Millions of examples in C/C++.|High. Requires a deep understanding of Rust and async.|
 |**Ready-made libraries**|There is one for absolutely everything (IMU, motors, screens).|The Rust driver ecosystem is growing, but specific libraries will have to be written from scratch.|
 |**ESP peripheral support**|Full-featured (Wi-Fi, BLE, hardware PWM, ADC).|It's still evolving. The basics (GPIO, UART, I2C, Wi-Fi) work, but BLE, for example, on the ESP series is still in the process of stabilizing.|
-For  DIY  projects  It's difficult  to use Ariel OS without an add-on  **:** 
+
+For  DIY  projects  It's difficult  to use Ariel OS without an add-on: 
 
 1. Arduino's control algorithms  are deeply tied to C++ math libraries and ready-made sensor drivers. Porting this code to Rust will take months. 
 
